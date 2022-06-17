@@ -1,0 +1,45 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <title>progressbar.com</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+  </head>
+  <body>
+    <div class="container">
+        <h1>MY CART</h1>
+        <div class="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="circle active"><i class="fa-solid fa-truck-fast"></i></div>
+            <div class="circle "><i class="fa-solid fa-user"></i></div>
+            <div class="circle "><i class="fa-solid fa-credit-card"></i></div>
+            <div class="circle "><i class="fa-solid fa-clipboard-check"></i></div>
+            
+        </div>
+        <div class="status-name">
+          <div class="status" id="status"></div>
+          <div id="pick">Picked Up</div>
+          <div id="transit">In Transit</div>
+          <div id="out">Out for Delivery</div>
+          <div id="delivery">Delivered</div>
+          
+        </div>
+
+        <!-- button tags goes here prev & next -->
+        <button class="btn" id="prev" disabled>Prev</button>
+        <button class="btn" id="next" >Next</button>
+    </div>
+    
+
+<!-- script tag goes here -->
+    <script src="./main.js"></script>
+  </body>
+  </html>
+  
