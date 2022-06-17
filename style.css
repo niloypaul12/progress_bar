@@ -21,9 +21,10 @@ body {
   margin: 0;
 }
 
-h1{
-    color: #f93800;
+h2{
+    color: #116fd5;
     margin-bottom: 90px;
+    
 }
 
 .fa-truck-fast{
@@ -63,10 +64,13 @@ h1{
 .status-name {
   display: flex;
   font-size: .7rem;
+  font-weight:500;
+  margin-top: -20px;
   
   position: relative;
   margin-bottom: 30px;
   align-items: center;
+  color: #116fd5;
   
   
 }
