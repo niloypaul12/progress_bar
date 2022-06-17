@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
 :root {
-  --line-border-fill: #ffb500;
+  --line-border-fill: rgba(11, 78,179);
   --line-border-empty: #e0e0e0;
 }
 
@@ -28,22 +28,22 @@ h1{
 
 .fa-truck-fast{
     font-size: .8rem;
-    color: #f93800;
+    color: white smoke;
 }
 .fa-user{
     font-size: .8rem;
-    color:#17c6d9 ;
+    color:white smoke ;
 
 }
 
 
 .fa-credit-card{
     font-size: .8rem;
-    color: #f2c810;
+    color: white smoke;
 }
 .fa-clipboard-check{
     font-size: .9rem;
-    color: #2bdb3a;
+    color: white smoke;
 }
 
 .container {
@@ -98,7 +98,7 @@ h1{
 }
 
 .progress {
-  background-color: var(--line-border-fill);
+  background-color: #116fd5;
   position: absolute;
   top: 50%;
   left: 0;
@@ -123,8 +123,9 @@ h1{
 }
 
 .circle.active {
+  background-color: var(--line-border-fill);
   
-  border-color:var(--line-border-fill) ;
+  border-color:#116fd5 ;
   color: #fff;
 }
 
